@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>دار للعلاج والإستشسارات الطبية</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Main css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="contact bg-blue">
+        <div class="container d-flex justify-content-between text-white py-1" style="font-size: 14px">
+            <a href="tel:+294112304777">
+                <i class="fas fa-phone"></i>
+                <span>0112304777</span>
+            </a>
+            <a href="mailto:example@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <span>
+                    example@gmail.com
+                </span>
+            </a>
+            <a href="#">
+                <i class="fas fa-map-marker"></i>
+                <span>
+                    الموقع
+                </span>
+            </a>
+        </div>
+    </section>
+    <header>
+        <div class="container py-4 py-md-5">
+            <nav class="navbar navbar-expand-md py-2 my-1 d-md-flex flex-md-column" aria-label="Fourth navbar example">
+                <a class="navbar-brand d-flex justify-content-between align-items-center me-0" href="#">
+                    <img class="d-none d-md-inline img-fluid w-50 my-0 mb-4 mx-auto" src="assets/imgs/logo_white.png" alt="">
+                    <img class="d-inline d-md-none img-fluid w-25 my-0" src="assets/imgs/logo_white.png" alt="">
+                
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                </a>
+
+                <div class="navbar-collapse collapse" id="navbarsExample04">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0 mt-4 mt-md-0 gap-2">
+                        <li>
+                            <a href="index.html" class="nav-link px-3 rounded text-white" aria-current="">الرئيسية</a>
+                        </li>
+                        <li>
+                            <a href="booking.html" class="nav-link px-3 rounded text-white active" aria-current="page">الحجز</a>
+                        </li>
+                        <li>
+                            <a href="activities.html" class="nav-link px-3 rounded text-white" aria-current="">اﻷنشطة</a>
+                        </li>
+                        <li>
+                            <a href="Patients.html" class="nav-link px-3 rounded text-white" aria-current="">المستخدمين</a>
+                        </li>
+                        <li>
+                            <a href="membership.html" class="nav-link px-3 rounded text-white" aria-current="">العضوية</a>
+                        </li>
+
+
+                        <form action="login.html" method="get" class="">
+                            <li class="nav-link">
+                                <i class="fas fa-unlock text-white"></i>
+                                <input type="submit" value="تسجيل دخول" class="bg-transparent text-white border-0">
+                            </li>
+                        </form>
+
+                        <form action="register.html" method="get" class="">
+                            <li class="nav-link">
+                                <i class="fas fa-pen text-white"></i>
+                                <input type="submit" value="إنشاء حساب" class="bg-transparent text-white border-0">
+                            </li>
+                        </form>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="text-white d-flex flex-column align-items-center text-center py-5">
+                <h2 class="fs-5 fw-bold text-blue">دار للعلاج والإستشارات النفسية</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="booking-form mt-5 mb-5 pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="appointment-box">
+                        <h2 class="text-center fw-bold"><span class="text-dark">احجز</span> <span
+                                class="text-blue">موعد</span></h2>
+                        <form>
+                            <div class="row g-3 mt-4">
+                                <!-- اسم المريض -->
+                                <div class="col-md-6">
+                                    <label class="form-label">اسم المريض</label>
+                                    <input type="text" class="form-control" placeholder="أدخل اسم المريض">
+                                </div>
+                                <!-- اسم الطبيب -->
+                                <div class="col-md-6">
+                                    <label class="form-label">اسم الطبيب</label>
+                                    <select class="form-select">
+                                        <option selected>اختر الطبيب</option>
+                                        <option>د. أحمد</option>
+                                        <option>د. محمد</option>
+                                        <option>د. فاطمة</option>
+                                    </select>
+                                </div>
+                                <!-- اسم القسم -->
+                                <div class="col-md-6">
+                                    <label class="form-label">القسم</label>
+                                    <select class="form-select">
+                                        <option selected>اختر القسم</option>
+                                        <option>طب الأطفال</option>
+                                        <option>طب العيون</option>
+                                        <option>طب النساء والتوليد</option>
+                                    </select>
+                                </div>
+                                <!-- رقم الهاتف -->
+                                <div class="col-md-6">
+                                    <label class="form-label">رقم الهاتف</label>
+                                    <input type="tel" class="form-control" placeholder="أدخل رقم الهاتف">
+                                </div>
+                                <!-- اختيار التاريخ -->
+                                <div class="col-md-6">
+                                    <label class="form-label">اختر التاريخ</label>
+                                    <div class="input-group">
+                                        <input type="date" class="form-control">
+                                        <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-4">
+                                <input type="submit" class="bg-blue text-white px-5 py-2 rounded border-0" value="حجز الموعد">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h5>تابعنا على</h5>
+            <div class="mt-3">
+                <a href="#" class="social-icons"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icons"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icons"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icons"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icons"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright fs-5">جميع الحقوق محفوظة &copy; 2025</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
